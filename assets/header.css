@@ -1,0 +1,46 @@
+body {
+  background-color: #228664;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Header Navbar */
+
+/* .container_header {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  height: 85px;
+  align-items: center;
+}
+
+.container_logo {
+ 
+  width: 80%;
+} */
+
+img,
+.logo_nav {
+  width: 140px;
+}
+
+.nav_picpay_png {
+  border-right: solid 1px #fff;
+  margin-right: 15px;
+}
+
+.container_header {
+  display: grid;
+  justify-content: space-around;
+  grid-template-columns: 78%;
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  height: 85px;
+}
+.container_logo {
+  display: flex;
+  align-items: center;
+  padding: 10px 0px 10px 0px;
+}
