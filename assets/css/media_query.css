@@ -1,0 +1,37 @@
+/* behavior in other devices */
+@media screen and (max-width: 660px) {
+
+  .container_parent {
+    width: 85%;
+    min-width: unset;
+  }
+
+  .container_user_child_two {
+    min-width: unset;
+  }
+
+  .container_transactions_child_main {
+    min-width: unset;
+
+  }
+
+  .container_user_child_two {
+
+    grid-template-columns: 170px 170px;
+    row-gap: 30px;
+    column-gap: 10px;
+
+  }
+
+  .choice_transactions_one, .choice_transactions_two, .choice_transaction_three,.choice_transaction_four{
+    min-height: 300px;
+  }
+  
+  .choice_transaction_two {
+    text-align: center;
+  }
+  .choice_transaction_two img {
+    transform: translateY(175PX);
+
+  }
+}

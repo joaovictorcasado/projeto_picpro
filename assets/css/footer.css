@@ -1,3 +1,7 @@
+
+
+/* Footer style is here */
+
 footer {
   display: flex;
   width: 100%;
@@ -12,9 +16,6 @@ footer {
   width: 78%;
   min-width: 420px;
   background-color: #fff;
-
-
-  /* border: solid yellow 3px; */
 }
 
 
@@ -40,10 +41,8 @@ a {
   padding: 0;
   display: grid;
   width: 100%;
-  /* grid-template-columns: 21.3% 21.3% 21.3% 21.3% 21.3%; */
   grid-template-columns: 40px 60px 50px 87px 40px;
   list-style: none;
-  /* border: solid red; */
   justify-content: space-between;
   align-items: center;
   max-width: 800px;

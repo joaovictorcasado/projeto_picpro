@@ -1,0 +1,112 @@
+/* css styles to structure html in script.js are here */
+
+
+
+
+ .choice_transaction_one {
+  display: flex; 
+  width:60%;
+  max-width: 750px;
+  justify-content: left;
+  
+}
+
+.paragraph_qr{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+ .qr_transaction_parent {
+   width: 100%;
+   max-width: 500px;
+  text-align: center;
+
+}
+
+
+
+.container_button_qr {
+  width: 100%;
+}
+
+.button_qr {
+  background-color: #4a8864;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 10px;
+  margin: 50px 0 20px;
+  height: 51px;
+  cursor: pointer;
+  width: 100%;
+}
+
+
+.link_qr {
+  text-decoration: underline;
+  color: #000;
+  font-weight: bold;
+}
+
+.link_qr:hover {
+  color: #4a8864;
+
+}
+
+.choice_transaction_two, .choice_transaction_three, .choice_transaction_four {
+  width: 78%;
+  text-align: left;
+  min-height: 350px;
+}
+
+
+
+
+.pix_transaction_parent {
+  display: flex;
+  justify-content: center;
+  max-width: 800px;
+}
+
+.pix_transaction_child {
+  width: 100%;
+
+}
+
+
+
+
+.ticket_parent{
+  max-width: 800px;
+}
+
+.title_ticket {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.paragrapho_ticket {
+  max-width: 500px;
+  font-size: 18px;
+}
+
+#inpt_barcode {
+  width: 100%;
+  background-color: #f4f4f4;
+  font-size: 16px;
+  height: 50px;
+  padding: 0 80px;
+  border-radius: 10px;
+  border: 1px solid #d2d2d2;
+  color: #000;
+  box-sizing: border-box;
+}
+
+
+
+.paragraph_demand{
+  font-size: 18px;
+  max-width: 500px;
+  margin: 20px 0;
+}

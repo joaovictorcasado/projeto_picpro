@@ -135,19 +135,19 @@ main {
 }
 
 .icons_child_two:hover .qr_icon {
-  content: url(../assets/img/qrcode-verde.png);
+  content: url(/assets/img/qrcode-verde.png);
 }
 
 .icons_child_two:hover .pix_icon {
-  content: url(../assets/img/pix-verde.png);
+  content: url(/assets/img/pix-verde.png);
 }
 
 .icons_child_two:hover .code_icon {
-  content: url(../assets/img/codigo-icon.png);
+  content: url(/assets/img/codigo-icon.png);
 }
 
 .icons_child_two:hover .cobrar_icon {
-  content: url(../assets/img/cobrar-verde.png);
+  content: url(/assets/img/cobrar-verde.png);
 }
 
 .container_transaction_parent {
@@ -197,28 +197,3 @@ main {
 
 
 
-/* behavior in other devices */
-@media screen and (max-width: 660px) {
-
-  .container_parent {
-    width: 85%;
-    min-width: unset;
-  }
-
-  .container_user_child_two {
-    min-width: unset;
-  }
-
-  .container_transactions_child_main {
-    min-width: unset;
-
-  }
-
-  .container_user_child_two {
-
-    grid-template-columns: 170px 170px;
-    row-gap: 30px;
-    column-gap: 10px;
-
-  }
-}

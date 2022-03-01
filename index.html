@@ -5,9 +5,12 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="assets/header.css" />
-  <link rel="stylesheet" href="assets/main.css" />
-  <link rel="stylesheet" href="assets/footer.css">
+  <link rel="stylesheet" href="assets/css/header.css" />
+  <link rel="stylesheet" href="assets/css/script.css">
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <link rel="stylesheet" href="assets/css/footer.css">
+  <link rel="stylesheet" href="assets/css/media_query.css">
+  <link rel="shortcut icon" href="assets/img/picpay-icon.png" type="image/x-icon">
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@1,300&display=swap" rel="stylesheet" />
@@ -49,15 +52,15 @@
       </div>
       </div>
       <div class="container_user_child_two">
-        <div class="icons_child_two" id="qr_img">
+        <div class="icons_child_two" id="qr_img" onclick="clickQr()">
           <img class="img qr_icon" src="assets/img/qrcode.png" alt="qr_icon" />
           <div class="icon_text">QR Code</div>
         </div>
-        <div class="icons_child_two" id="pix_img">
+        <div class="icons_child_two" id="pix_img" onclick="clickPix()" >
           <img class="img pix_icon" src="assets/img/pix.png" alt="pix_icon" />
           <div class="icon_text">Pix</div>
         </div>
-        <div class="icons_child_two" id="code_img">
+        <div class="icons_child_two" id="code_img" onclick="clickTicket()">
           <img class="img code_icon" src="assets/img/codigo.png" alt="code_icon" />
 
 
@@ -66,7 +69,7 @@
             Boleto
           </div>
         </div>
-        <div class="icons_child_two" id="cobrar_img">
+        <div class="icons_child_two" id="cobrar_img" onclick="clickDemand()" >
           <img class="img cobrar_icon" src="assets/img/cobrar-icon.png" alt="cobrar_icon" />
           <div class="icon_text">Cobrar</div>
         </div>
@@ -77,7 +80,7 @@
 
       <div class="container_transactions_child_main">
 
-        <div class="banner_payment_container">
+        <dizv class="banner_payment_container">
 
           <div class="select_payment">
             <div class="payment_container">
@@ -85,10 +88,11 @@
             </div>
           </div>
           <img id="banner_png" src="assets/img/banner.png" alt="">
-        </div>
+        </dizv>
 
       </div>
-
+      <!--Estrutura js-->
+     
 
 
     </section>
@@ -125,6 +129,8 @@
 
 
   </footer>
+
+  <script src="assets/script.js"></script>
 
 </body>
 
